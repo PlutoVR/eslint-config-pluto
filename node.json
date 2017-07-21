@@ -1,0 +1,13 @@
+{
+  "extends": "pluto",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "callback-return": "error",
+    "no-console": "off",
+    "no-process-exit": "error",
+    "no-var": "error"
+  }
+}
