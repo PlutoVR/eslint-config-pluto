@@ -1,27 +1,17 @@
 {
   "extends": "pluto",
   "parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": false,
+			"modules": true
+		}
+	},
   "env": {
     "browser": true,
     "es6": true
-  },
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "blockBindings": true,
-    "classes": true,
-    "defaultParams": true,
-    "destructuring": true,
-    "forOf": true,
-    "generators": false,
-    "modules": true,
-    "objectLiteralComputedProperties": true,
-    "objectLiteralDuplicateProperties": false,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "spread": true,
-    "superInFunctions": true,
-    "templateStrings": true,
-    "jsx": false
   },
   "rules": {
     "no-console": ["error", { "allow": ["warn", "error"] }]
