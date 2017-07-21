@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-pluto",
+  "version": "1.0.0",
+  "description": "Shared eslint configuration",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/plutovr/eslint-config-pluto"
+	}
+}
