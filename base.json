@@ -1,0 +1,14 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "eol-last": "error",
+    "eqeqeq": "error",
+    "guard-for-in": "error",
+    "indent": ["error", "tab"],
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "no-trailing-spaces": "error",
+    "no-unused-vars": ["error", { "args": "none", "varsIgnorePattern": "[sShould]" }],
+    "semi": ["error", "always"]
+  }
+}
