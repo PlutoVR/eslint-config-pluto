@@ -7,6 +7,7 @@
     "indent": ["error", "tab"],
     "no-eval": "error",
     "no-implied-eval": "error",
+    "no-restricted-globals": ["error", "fdescribe", "fit"],
     "no-trailing-spaces": "error",
     "no-unused-vars": ["error", { "args": "none", "varsIgnorePattern": "[sShould]" }],
     "semi": ["error", "always"]
