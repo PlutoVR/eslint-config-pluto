@@ -27,6 +27,6 @@ Adding Rules
 ---
 
 - Update the rules
-- Run `npm login` (credentials are in Google Drive).
+- Run `npm login`.
 - Use `npm version` to bump the version.
-- Run `npm publish` to publish the new version to npm.  Please note that the package is public.
+- Run `npm publish` to publish the new version to npm.
