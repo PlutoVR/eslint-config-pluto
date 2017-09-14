@@ -1,10 +1,13 @@
 {
   "extends": "eslint:recommended",
   "rules": {
+    "comma-spacing": "error",
+    "curly": ["error", "multi", "consistent"],
+    "dot-notation": "error",
     "eol-last": "error",
     "eqeqeq": "error",
     "guard-for-in": "error",
-    "indent": ["error", "tab"],
+    "indent": ["error", "tab", { "SwitchCase": 1 }],
     "no-eval": "error",
     "no-implied-eval": "error",
     "no-restricted-globals": ["error", "fdescribe", "fit"],
