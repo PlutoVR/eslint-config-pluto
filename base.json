@@ -8,6 +8,7 @@
     "eqeqeq": "error",
     "guard-for-in": "error",
     "indent": ["error", "tab", { "SwitchCase": 1 }],
+    "new-parens": "error",
     "no-eval": "error",
     "no-implied-eval": "error",
     "no-restricted-globals": ["error", "fdescribe", "fit"],
