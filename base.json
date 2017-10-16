@@ -8,12 +8,15 @@
     "eqeqeq": "error",
     "guard-for-in": "error",
     "indent": ["error", "tab", { "SwitchCase": 1 }],
+    "keyword-spacing": "error",
     "new-parens": "error",
     "no-eval": "error",
     "no-implied-eval": "error",
     "no-restricted-globals": ["error", "fdescribe", "fit"],
     "no-trailing-spaces": "error",
     "no-unused-vars": ["error", { "args": "none", "varsIgnorePattern": "[sShould]" }],
-    "semi": ["error", "always"]
+    "semi": ["error", "always"],
+    "space-before-blocks": "error",
+    "space-infix-ops": "error"
   }
 }
