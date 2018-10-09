@@ -2,7 +2,6 @@
   "extends": "eslint:recommended",
   "rules": {
     "comma-spacing": "error",
-    "curly": ["error", "multi", "consistent"],
     "dot-notation": "error",
     "eol-last": "error",
     "eqeqeq": "error",
