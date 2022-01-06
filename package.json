@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pluto",
-  "version": "1.0.10",
+  "version": "2.0.0",
   "description": "Shared eslint configuration",
   "main": "index.js",
   "author": "",
@@ -10,9 +10,10 @@
     "url": "https://github.com/plutovr/eslint-config-pluto"
   },
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 7",
+    "@babel/eslint-parser": "^7.16.5"
   },
   "devDependencies": {
-    "eslint": "^7.26.0"
+    "eslint": "^8.6.0"
   }
 }

@@ -17,7 +17,7 @@ To use the base configuration, extend `pluto` in a project's `.eslintrc.json`:
 
 ```json
 {
-	"extends": "pluto"
+  "extends": "pluto"
 }
 ```
 
